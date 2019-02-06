@@ -11,7 +11,6 @@
             "homepage": "https://github.com/symfony-cmf/SimpleCmsBundle/contributors"
         }
     ],
-    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php": "^5.3.9|^7.0",
