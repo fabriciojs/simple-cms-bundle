@@ -1,47 +1,25 @@
 {
     "name": "symfony-cmf/simple-cms-bundle",
-    "type": "symfony-bundle",
     "description": "A simple CMS bundle based on the Symfony CMF",
-    "keywords": ["Symfony CMF", "CMS"],
-    "homepage": "http://cmf.symfony.com",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Symfony CMF Community",
-            "homepage": "https://github.com/symfony-cmf/SimpleCmsBundle/contributors"
-        }
-    ],
-    "prefer-stable": true,
+    "type": "symfony-bundle",
     "require": {
-        "php": "^5.3.9|^7.0",
-        "symfony/framework-bundle": "~2.3|^3.0",
-        "symfony-cmf/core-bundle": "~1.1",
-        "symfony-cmf/routing-bundle": "~1.2",
-        "symfony-cmf/menu-bundle": "2.0.*",
-        "symfony-cmf/content-bundle": "~1.2",
-        "doctrine/phpcr-bundle": "~1.1",
-        "doctrine/phpcr-odm": "~1.2"
+        "symfony/framework-bundle": ">3.0",
+        "symfony-cmf/core-bundle": "^2.1",
+        "symfony-cmf/routing-bundle": "^2.1",
+        "symfony-cmf/menu-bundle": "^2.2",
+        "symfony-cmf/content-bundle": "^2.1",
+        "doctrine/phpcr-bundle": "^2.0",
+        "doctrine/phpcr-odm": "^1.4"
     },
+    "license": "MIT",
     "require-dev": {
-        "symfony-cmf/testing": "^1.3",
-        "matthiasnoback/symfony-dependency-injection-test": "^0.7.4",
-        "matthiasnoback/symfony-config-test": "^1.2.3",
-        "sonata-project/block-bundle": "^2.2.8",
-        "sonata-project/core-bundle": "^2.2.3",
-        "sonata-project/doctrine-phpcr-admin-bundle": "~1.1",
-        "symfony/monolog-bundle": "~2.3"
-    },
-    "suggest": {
-        "symfony-cmf/create-bundle": "to allow the admin to edit pages inline (~1.1)",
-        "sonata-project/doctrine-phpcr-admin-bundle": "to provide an admin interface for editing content (~1.1)",
-        "ivory/ckeditor-bundle": "to provide a CKEditor in the admin interface"
-    },
-    "autoload": {
-        "psr-4": {
-            "Symfony\\Cmf\\Bundle\\SimpleCmsBundle\\": ""
-        }
-    },
-    "conflict": {
-        "jms/di-extra-bundle": "<1.3"
+        "symfony-cmf/testing": "^2.1",
+        "matthiasnoback/symfony-dependency-injection-test": "^3.1",
+        "matthiasnoback/symfony-config-test": "^4.0",
+        "sonata-project/block-bundle": "^3.14",
+        "sonata-project/core-bundle": "^3.15",
+        "sonata-project/doctrine-phpcr-admin-bundle": "^2.2",
+        "symfony/monolog-bundle": "^3.3",
+        "phpunit/phpunit": "^7.5"
     }
 }

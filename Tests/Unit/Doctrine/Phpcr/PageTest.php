@@ -13,7 +13,7 @@ namespace Symfony\Cmf\Bundle\SimpleCmsBundle\Tests\Unit\Doctrine\Phpcr;
 
 use Symfony\Cmf\Bundle\SimpleCmsBundle\Doctrine\Phpcr\Page;
 
-class PageTest extends \PHPUnit_Framework_TestCase
+class PageTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @group legacy
